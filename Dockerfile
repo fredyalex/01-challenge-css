@@ -8,7 +8,7 @@ RUN npm install -g live-server
 WORKDIR /app
 
 # Copia los archivos de tu carpeta 'public' al contenedor
-COPY public/ /app/
+COPY . /app/
 
 # Expone el puerto que usará live-server
 EXPOSE 8080

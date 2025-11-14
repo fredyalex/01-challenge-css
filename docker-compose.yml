@@ -4,6 +4,6 @@ services:
     ports:
       - "8180:8080"
     volumes:
-      - ./public:/app
+      - .:/app
     environment:
        - CHOKIDAR_USEPOLLING=true
